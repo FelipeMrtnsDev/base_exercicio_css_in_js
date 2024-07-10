@@ -22,11 +22,11 @@ const GlobalStyle = createGlobalStyle`
 export default GlobalStyle
 
 export const Container = styled.div`
-    max-width: 1024px;
-    width: 100%;
-    margin: 0 auto;
+  max-width: 1024px;
+  width: 100%;
+  margin: 0 auto;
 
-    @media (max-width: 1024px) {
-        max-width: 80%;
-    }
+  @media (max-width: 1024px) {
+    max-width: 80%;
+  }
 `
